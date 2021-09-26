@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace HcfLcmEvents
 {
+    /// <summary>
+    /// Do the HCF & LCM program using delegates and event concept
+    /// </summary>
+    /// <param name="num"></param>
+    
     delegate void operation(int num);
     class Program
     {
